@@ -12,7 +12,7 @@ public class SearchGitTest {
     static void BeforeAll() {
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = true;
+        Configuration.timeout = 4000;
     }
     @Test
     void SgitTest(){
