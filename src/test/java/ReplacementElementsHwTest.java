@@ -21,7 +21,7 @@ public class ReplacementElementsHwTest {
         $("#column-a").shouldHave(text("B"));
         $("#column-b").shouldHave(text("A"));
 
-                    }
+                     }
     @Test
     void dragAndDropAtoB() {
         open("/drag_and_drop");
