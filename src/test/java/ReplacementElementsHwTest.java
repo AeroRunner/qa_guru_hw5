@@ -9,12 +9,11 @@ public class ReplacementElementsHwTest {
     @BeforeAll
    static void beforeAll() {
         Configuration.browserSize = "1920x1080";
-        Configuration.timeout = 5000;
         Configuration.pageLoadStrategy = "eager";
         Configuration.baseUrl ="https://the-internet.herokuapp.com";
                       }
     @Test
-    void AactionB() {
+    void actionAtoB() {
         open("/drag_and_drop");
         $("#column-a").shouldHave(text("A"));
         $("#column-b").shouldHave(text("B"));
@@ -24,7 +23,7 @@ public class ReplacementElementsHwTest {
 
                     }
     @Test
-    void AdragAndDroptoB() {
+    void dragAndDropAtoB() {
         open("/drag_and_drop");
         $("#column-a header").shouldHave(text("A"));
         $("#column-b header").shouldHave(text("B"));
