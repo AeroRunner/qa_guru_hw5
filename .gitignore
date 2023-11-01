@@ -11,9 +11,9 @@ build/
 
 ### Gradle ###
 .gradle
-build.gradle
-gradlew
 gradlew.bat
+gradlew
+build.gradle
 
 ### Logs ###
 *.log
